@@ -9,9 +9,11 @@ body {
   background-color: #f1f5f2;
 }
 .page {
+  display: grid;
   width: min(920px, calc(100% - 32px));
   margin: 0 auto;
   padding: 48px 0;
+  gap: 20px;
 }
 .panel {
   background-color: #fff;
@@ -36,7 +38,8 @@ label {
   gap: 8px;
   margin: 28px 0;
 }
-.search-row {
+.search-row,
+.palpite-row {
   display: flex;
   gap: 12px;
 }

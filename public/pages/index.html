@@ -24,11 +24,33 @@
               inputmode="numeric"
               placeholder="Ex.: 2840"
             />
-            <button type="submit">Buscar</button>
+            <button id="search-button" type="submit">Buscar</button>
           </div>
         </form>
 
         <section class="result" id="result"></section>
+      </section>
+
+      <section class="panel">
+        <div>
+          <h1>Palpite da Mega-Sena</h1>
+          <p>Consulte o seu palpite em todos os concursos já realizados</p>
+        </div>
+
+        <form class="search" id="palpite-form">
+          <label for="palpite-input">Dezenas</label>
+          <div class="palpite-row">
+            <input
+              id="palpite-input"
+              name="palpite"
+              inputmode="numeric"
+              placeholder="Ex.: 10 20 30 40 50 60 até 12 dezenas"
+            />
+            <button id="palpite-button" type="submit">Buscar</button>
+          </div>
+        </form>
+
+        <section class="result" id="result-palpite"></section>
       </section>
     </main>
     <script src="/assets/js/main.js"></script>
